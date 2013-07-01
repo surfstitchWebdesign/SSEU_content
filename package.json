@@ -1,0 +1,30 @@
+{
+  "name": "contentAuto",
+  "version": "0.0.0",
+  "description": "automate content tasks",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gist.github.com/7e6721ce60ea1ac4014e.git"
+  },
+  "keywords": [
+    "SSEU",
+    "content",
+    "styles"
+  ],
+  "author": "SSEUcontentTeam",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-csslint": "~0.1.2",
+    "grunt-contrib-cssmin": "~0.6.1",
+    "grunt-ssh": "~0.6.0",
+    "grunt-git": "0.0.1",
+    "grunt-hash": "~0.2.3",
+    "grunt-contrib-compress": "~0.5.2",
+    "grunt-html-validation": "~0.1.2"
+  }
+}

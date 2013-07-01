@@ -1,0 +1,1956 @@
+/*
+ ######  ##     ## ########  ########  ######  ######## #### ########  ######  ##     ## 
+##    ## ##     ## ##     ## ##       ##    ##    ##     ##     ##    ##    ## ##     ## 
+##       ##     ## ##     ## ##       ##          ##     ##     ##    ##       ##     ## 
+ ######  ##     ## ########  ######    ######     ##     ##     ##    ##       ######### 
+      ## ##     ## ##   ##   ##             ##    ##     ##     ##    ##       ##     ## 
+##    ## ##     ## ##    ##  ##       ##    ##    ##     ##     ##    ##    ## ##     ## 
+ ######   #######  ##     ## ##        ######     ##    ####    ##     ######  ##     ## 
+ */
+
+
+*{margin:0;padding:0;}
+
+/*
+##     ##  #######  ##     ## ######## ########     ###     ######   ########     ######  ######## ##    ## ##       ########  ######  
+##     ## ##     ## ###   ### ##       ##     ##   ## ##   ##    ##  ##          ##    ##    ##     ##  ##  ##       ##       ##    ## 
+##     ## ##     ## #### #### ##       ##     ##  ##   ##  ##        ##          ##          ##      ####   ##       ##       ##       
+######### ##     ## ## ### ## ######   ########  ##     ## ##   #### ######       ######     ##       ##    ##       ######    ######  
+##     ## ##     ## ##     ## ##       ##        ######### ##    ##  ##                ##    ##       ##    ##       ##             ## 
+##     ## ##     ## ##     ## ##       ##        ##     ## ##    ##  ##          ##    ##    ##       ##    ##       ##       ##    ## 
+##     ##  #######  ##     ## ######## ##        ##     ##  ######   ########     ######     ##       ##    ######## ########  ######  
+*/
+
+/* ------------------------- HP MAIN STYLES ------------------------- */
+
+	#HomePage {
+	    width: 985px;
+	    height: 535px;
+	    position: relative;
+	    overflow: hidden;
+	}
+
+/* ------------------------- HP GRAPHIC ASSET STYLES ------------------------- */
+
+	.sepBarWhite {
+	    width: 80px;
+	    height: 7px;
+	    background: #ffffff;
+	    margin: 20px auto 0px;
+	}
+	.sepBarBlack {
+	    width: 80px;
+	    height: 7px;
+	    background: #000000;
+	    margin: 20px auto 0px;
+	}
+	.sepBarRed {
+	    width: 80px;
+	    height: 7px;
+	    background: #DB413F;
+	    margin: 20px auto 0px;
+	}
+	.sepBarBlue {
+	    width: 80px;
+	    height: 7px;
+	    background: #1e273b;
+	    margin: 10px auto 20px;
+	}
+	.dottedLineBlack {
+	    font-family: 'GravurBold', Sans-Serif;
+	    font-size: 28px;
+	    letter-spacing: 4px;
+	    color: #000000;
+	}
+	.dottedLineWhite {
+	    font-family: 'GravurBold', Sans-Serif;
+	    font-size: 21px;
+	    letter-spacing: 4px;
+	    color: #ffffff;
+	}
+	.dottedLineSale {
+	    font-family: 'GravurBold', Sans-Serif;
+	    font-size: 28px;
+	    letter-spacing: 4px;
+	    color: #DB413F;
+	}
+	.catbttn p {
+	    font-family: Arial, Helvetica, sans-serif;
+	    font-size: 12px;
+	    font-weight: bold;
+	    background: url(../../img/SSEU_arrowBulletSmallHover.png) no-repeat;
+	    background-position: 6px 8px;
+	    color:#000000;
+	    background-color: #f3f3f3;
+	    padding:5px 8px 3px 22px;
+	    -webkit-border-radius: 3px;
+	    border-radius: 3px;
+	    -moz-box-shadow: 0px 1px 3px rgba(000, 000, 000, 0.5), inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+	    -webkit-box-shadow: 0px 1px 3px rgba(000, 000, 000, 0.5), inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+	    box-shadow: 0px 1px 3px rgba(000, 000, 000, 0.5), inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+	}
+	.catbttnSmall p {
+	    font-family: Arial, Helvetica, sans-serif;
+	    font-size: 10px;
+	    font-weight: bold;
+	    background: url(../../img/SSEU_arrowBulletSmallHover.png) no-repeat;
+	    background-position: 6px 8px;
+	    color:#000000;
+	    background-color: #f3f3f3;
+	    padding:5px 8px 3px 22px;
+	    -webkit-border-radius: 3px;
+	    border-radius: 3px;
+	    -moz-box-shadow: 0px 1px 3px rgba(000, 000, 000, 0.5), inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+	    -webkit-box-shadow: 0px 1px 3px rgba(000, 000, 000, 0.5), inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+	    box-shadow: 0px 1px 3px rgba(000, 000, 000, 0.5), inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+	}
+	.catbttn p:hover, .catbttnSmall p:hover {
+	    color: #A42F37;
+	    background: url(../../img/SSEU_arrowBulletSmall.png) no-repeat;
+	    background-color: #f3f3f3;
+	    background-position: 6px 8px;
+	}
+/*	.promoCodeBox {
+	    color: #3a3c40;
+	    background: #ffffff;
+	    padding: 8px 8px 4px;
+	    -webkit-box-shadow:  1px 1px 2px  #d9d9da;
+	    box-shadow:  1px 1px 2px  #d9d9da;
+	}*/
+	#overlayimg {
+	    display: none;
+	    z-index: 1;
+	}
+
+/* ------------------------- HP BANNER STYLES ------------------------- */
+
+	#HPtopTXT {
+	    color: #ffffff;
+	    position: relative;
+	    top: 50px;
+	    text-align: center;
+	    margin: 0 530px 0px 0px;
+	}
+	#HPtopTXT p {
+	    font-family: 'P22Underground-Medium',Sans-Serif;
+	    font-size: 18px;
+	    line-height: 21px;
+	    color: #ffffff;
+	    /*text-shadow: -1px 1px 3px #487CB2;*/
+	    /*letter-spacing: 4px;*/
+	}
+	#HPtopTXT .titleTXT {
+	    font-family: 'P22Underground-Heavy',Sans-Serif;
+	    font-size: 48px;
+	    line-height: 40px;
+	    margin-top: 23px;
+	    /*text-shadow: -1px 1px 3px #487CB2;*/
+	}
+	#HPtopTXT .subTitle {
+	    font-family: 'P22Underground-Heavy', sans-serif;
+	    color:#ffffff;
+	    font-size: 65px;
+	    line-height: 60px;
+	    font-style: italic;
+	}
+	#HPtopTXT2 {
+	    position: relative;
+	    text-align: center;
+	    margin: 35px 450px 0 0;
+	}
+	#HPtopTXT2 p {
+	    font-family: 'P22Underground-Medium',Sans-Serif;
+	    font-size: 18px;
+	    /*line-height: 21px;*/
+	    color: #ffffff;
+	}
+	#HPtopTXT2 .titleTop {
+	    font-family: 'P22Underground-Light',Sans-Serif;
+	    font-size: 28px;
+	    line-height: 30px;
+	    font-style: italic;
+	}
+	#HPtopTXT2 .titleTXT {
+	    font-family: 'P22Underground-Medium',Sans-Serif;
+	    font-size: 32px;
+	    line-height: 30px;
+	    margin: 10px 0 0 30px;
+	    text-shadow: 1px 0px 1px #3879B9;
+	    filter: dropshadow(color=#3879B9, offx=1, offy=1);
+	    /*text-shadow: -1px 1px 3px #487CB2;*/
+	}
+	#HPtopTXT2 .subTitle {
+	    font-family: 'P22Underground-Heavy',Serif;
+	    font-style: italic;
+	    font-weight: 800;
+	    color:#1e273b;
+	    font-size: 58px;
+	    line-height: 50px;
+	}
+	#HPtopTXT2 .subTitle2 {
+	    font-family: Georgia, Serif;
+	    color:#080100;
+	    font-size: 20px;
+	    line-height: 20px;
+	    font-style: italic;
+	}
+	#HPtopTXT2 .linkBttn {
+	    font-size: 14px;
+	    text-decoration: none;
+	    font-weight: bold;
+	    color: #ffffff;
+	    background: #000000;
+	    padding: 10px 20px;
+	}
+	#HPtopTXT2 .tcTXT {
+	    font-family: Georgia, Serif;
+	    font-size: 10px;
+	    color: #768d9e;
+	    margin-top: 20px;
+	    font-style: italic;
+	}
+	#HPtopTXT2 .promoCodeNBGR {
+	    color: #3a3c40;
+	    font-size: 20px;
+	    margin-bottom: 20px;
+	}
+	#HPtopTXTmens {
+	    position: relative;
+	    top: 85px;
+	    text-align: center;
+	    margin: 0 470px 0px 30px;
+	}
+	#HPtopTXTmens p {
+	    font-family: 'P22Underground-Medium',Sans-Serif;
+	    font-size: 18px;
+	    line-height: 21px;
+	    color: #2f346b;
+	    /*text-shadow: -1px 1px 3px #487CB2;*/
+	    /*letter-spacing: 4px;*/
+	}
+	#HPtopTXTmens .titleTXT {
+	    font-family: 'P22Underground-Heavy',Sans-Serif;
+	    font-size: 36px;
+	    line-height: 40px;
+	    margin-top: 23px;
+	    /*text-shadow: -1px 1px 3px #487CB2;*/
+	}
+	#HPtopTXTmens .subTitle {
+	    font-family: Georgia, serif;
+	    color:#2f346b;
+	    font-size: 16px;
+	    line-height: 21px;
+	    font-style: italic;
+	}
+	#HPtopTXTwomans {
+	    position: relative;
+	    top: 85px;
+	    text-align: center;
+	    margin: 0 10px 0px 540px;
+	}
+	#HPtopTXTwomans p {
+	    font-family: 'P22Underground-Medium',Sans-Serif;
+	    font-size: 18px;
+	    line-height: 21px;
+	    color: #DB413F;
+	    /*text-shadow: -1px 1px 3px #487CB2;*/
+	    /*letter-spacing: 4px;*/
+	}
+	#HPtopTXTwomans .titleTXT {
+	    font-family: 'P22Underground-Heavy',Sans-Serif;
+	    font-size: 36px;
+	    line-height: 40px;
+	    margin-top: 23px;
+	    /*text-shadow: -1px 1px 3px #487CB2;*/
+	}
+	#HPtopTXTwomans .subTitle {
+	    font-family: Georgia, serif;
+	    color:#DB413F;
+	    font-size: 16px;
+	    line-height: 21px;
+	    font-style: italic;
+	}
+	#HPmiddleBanner {
+	    left: 0px;
+	    width: 985px;
+	    top: 0px;
+	    height: 50px;
+	    position:absolute;
+	    text-align: center;
+	    font-family: 'GravurBold', sans-serif;
+	    font-size: 23px;
+	    color: #555658;
+	    line-height: 21px;
+	    text-decoration: none;
+	}
+	.HPmiddleBannerImg {
+		width: 985px;
+		margin: 10px auto 0;
+	}
+	.HPmiddleBannerImg li {
+		display: inline-block;
+		list-style: none;
+		margin: 0 5px;
+		padding: 0 5px;
+	}
+	#HPbottomLeftTXT, #HPbottomMiddleTXT, #HPbottomRightTXT {
+	    margin-top: 240px;
+	    text-align: center;
+	}
+	#HPbottomLeftFull .bottomTitle, #HPbottomMiddleFull .bottomTitle, #HPbottomRightFull .bottomTitle {
+	    font-family: 'P22Underground-Light',Sans-Serif;
+	    color: #ffffff;
+	    font-size: 21px;
+	    line-height: 26px;
+	    /*font-weight: bolder;*/
+	}
+	#HPbottomLeftTXT p, #HPbottomMiddleTXT p, #HPbottomRightTXT p {
+	    font-family: Georgia, serif;
+	    color: #ffffff;
+	    font-size: 16px;
+	}
+	#HPbottomLeftTXT a, #HPbottomMiddleTXT a, #HPbottomRightTXT a {
+	    font-family: 'GravurBold', sans-serif;
+	    text-decoration: none;
+	    color: #ffffff;
+	    font-size: 14px;
+	}
+	.spendBlocks{
+		width: 500px;
+		/*position: absolute;*/
+		text-align: center;
+		margin-left: 30px;
+	}
+	.spendBlocks p {
+		font-family: 'P22Underground-Medium', sans-serif;
+		font-size: 21px;
+		line-height: 32px;
+		color: #2f3c42;
+	}
+	.spendBlocks li {
+		list-style: none;
+		display: inline-block;
+		background: rgba(255, 255, 255, 0.9);
+		padding: 10px;
+		margin: 0 5px;
+		-webkit-box-shadow:  1px 1px 5px 0px rgba(0, 0, 0, 0.4); 
+        box-shadow:  1px 1px 5px 0px rgba(0, 0, 0, 0.4);
+	}
+	#HPtopTXT2 .splitStitchSmall {
+		background: url(../../img/SSEU_stitchDot.png) repeat-x ;
+		width: 100%;
+		height: 2px;
+		margin: 5px 0 8px 0;
+	}
+/*
+	.bottomShopLink:before {
+	    content:url('../../img/ctaRoundedWhite.png');
+	    position: relative;
+	    top: 2px;
+	}
+*/
+#noCarousel {
+		width: 985px;
+		height: 470px;
+		position: relative;
+		background: #ffffff;
+		margin-top: 5px;
+	}
+	.bigLeft {
+		width: 721px;
+		height: 470px;
+		position: absolute;
+		top: 0;
+		left: 0;
+		margin-right: 5px;
+		background: #db4541;
+		text-align: center;
+	}
+	.bigLeftTitle {	
+		font-family: 'P22Underground-Light', sans-serif;
+		font-size: 75px;
+		font-weight: normal;
+		color: #ffffff;
+		margin-top: 100px;
+		text-shadow: 1px 1px 2px #c73f3b;
+        filter: dropshadow(color=#c73f3b, offx=1, offy=1);
+        height: 60px;
+	}
+	.bigLeftSubTitle {
+		font-family: 'P22Underground-Heavy', sans-serif;
+		font-size: 140px;
+		height: 103px;
+		margin-bottom: 20px;
+		color: #ffffff;
+		text-shadow: 1px 1px 2px #c73f3b;
+        filter: dropshadow(color=#c73f3b, offx=1, offy=1);
+	}
+	.bigLeftSubSubTitle {
+		font-family: 'P22Underground-Heavy', sans-serif;
+		font-style: italic;
+		font-size: 16px;
+		color: #ffffff;
+		margin-bottom: 30px;
+	}
+	.bigLeftCTA {
+		text-align: center;
+	}
+	.bigLeftCTA li {
+		display: inline-block;
+		list-style: none;
+	}
+	.bigLeftCTA a {
+		background: #000000;
+		color: #ffffff;
+		padding: 10px 15px;
+		margin: 0 10px;
+		font-size: 12px;
+		font-weight: bold;
+		-webkit-box-shadow:  0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+		box-shadow:  0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+	}
+	.smallTop {
+		width: 259px;
+		height: 233px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		margin-bottom: 5px;
+		background: url(../../img/SSEU_SUMMERSALE_2606-1_03.jpg);
+	}
+	#ctaPos {
+		width: 259px;
+		height: 40px;
+		position: absolute;
+		bottom: 0px;
+		text-align: center;
+	}
+	.CTAwhite {
+		position: relative;
+		margin: 0 auto;
+		font-weight: bold;
+		background: #ffffff;
+		padding: 10px 15px;
+		color: #000000;
+		-webkit-box-shadow:  0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+		box-shadow:  0px 0px 7px 0px rgba(0, 0, 0, 0.5);
+		z-index: 2;
+	}
+	.CTAwhite:hover {
+		color: #000000;
+	}
+	.smallBottom {
+		width: 219px;
+		padding: 20px;
+		height: 193px;
+		position: absolute;
+		top: 238px;
+		right: 0;
+		background: url(../../img/SSEU_SUMMERSALE_2606-1_05.jpg);
+	}
+	.smallBottom h1, .smallBottom p {
+		text-align: center;
+		color: #ffffff;
+	}
+	.smallBottomTitle {
+		font-family: 'P22Underground-Heavy', sans-serif;
+		font-size: 48px;
+	}
+	.smallBottomSubTitle {
+		font-family: 'P22Underground-Medium', sans-serif;
+		font-size: 16px;
+	}
+	.GeorgiaLine {
+		font-family: Georgia, serif;
+		font-style: italic;
+		font-size: 14px;
+		font-weight: bold;
+	}
+	.sepBarWhiteSmall {
+		height: 3px;
+		width: 65px;
+		background: #ffffff;
+		margin: 5px auto;
+	}
+
+/* ------------------------- HP CTA'S STYLES ------------------------- */
+
+	#HPladiesShopLink {
+	    width: 140px;
+	    height: 35px;
+	    position: absolute;
+	    top: 401px;
+	    left: 603px;
+	}
+	#HPmensShopLink {
+	    width: 140px;
+	    height: 35px;
+	    position: absolute;
+	    top: 400px;
+	    left: 253px;
+	}
+	#HPbottomLeftLink {
+	    position: absolute;
+	    width: 326px;
+	    height: 423px;
+	    left: 0px;
+	    top: 55px;
+	}
+	#HPbottomMiddleLink {
+	    position: absolute;
+	    width: 326px;
+	    height: 423px;
+	    left: 329px;
+	    top: 55px;
+	}
+	#HPbottomRightLink {
+	    position: absolute;
+	    width: 326px;
+	    height: 423px;
+	    left: 658px;
+	    top: 55px;
+	}
+	#HPshopMensSpend {
+	    position: absolute;
+	    height: 35px;
+	    width: 147px;
+	    top: 392px;
+	    right: 517px;
+	}
+	#HPshopWomensSpend {
+	    position: absolute;
+	    height: 35px;
+	    width: 159px;
+	    top: 392px;
+	    right: 322px;
+	}
+	#HPshopMensBoutique {
+	    position: absolute;
+	    height: 37px;
+	    width: 156px;
+	    top: 305px;
+	    right: 66px;
+	}
+	#HPshopWomensBoutique {
+	    position: absolute;
+	    height: 35px;
+	    width: 156px;
+	    top: 305px;
+	    right: 245px;
+	}
+	#HPshopMensswim {
+	    position: absolute;
+	    height: 35px;
+	    width: 225px;
+	    top: 380px;
+	    left: 127px;
+	}
+	#HPshopWomensswim {
+	    position: absolute;
+	    height: 35px;
+	    width: 225px;
+	    top: 330px;
+	    left: 127px;
+	}
+/*	#HPtopTXT2 .CarhpLinksRow {
+	    position: absolute;
+	    right: -430px;
+	}*/
+	#HPtopTXT2 .CarhpLinksRow li {
+	    display: inline;
+	}
+	#HPtopTXT2 .CarhpLinksRow li a {
+	    font-family: Arial, sans-serif;
+	    text-decoration: none;
+	    background: #2f3c42;
+	    color: #ffffff;
+	    padding: 8px 15px;
+	    margin: 0px 15px;
+	    font-size: 14px;
+	}
+	.linkBttn {
+	    font-size: 16px;
+	    text-decoration: none;
+	    font-weight: bold;
+	    color: #db413f;
+	    background: #ffffff;
+	    padding: 10px 20px;
+	    -webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+	    -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4); 
+	    box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+	    font-family: Arial, sans-serif;
+	}
+	.linkBttnmens {
+	    font-family: Arial, sans-serif;
+	    font-size: 14px;
+	    text-decoration: none;
+	    font-weight: bold;
+	    color: #ffffff;
+	    background: #2f346b;
+	    padding: 10px 20px;
+	}
+	.linkBttnWomans {
+	    font-family: Arial, sans-serif;
+	    font-size: 14px;
+	    text-decoration: none;
+	    font-weight: bold;
+	    color: #ffffff;
+	    background: #DB413F;
+	    padding: 10px 20px;
+	}
+
+/* ------------------------- HP SOCIAL FOOTER STYLES ------------------------- */
+
+	#googlePlus {
+	    position: absolute;
+	    top: 495px;
+	    left: 76px;
+	    height: 24px;
+	    width: 24px;
+	}
+	#pinterest {
+	    position: absolute;
+	    top: 495px;
+	    left: 102px;
+	    height: 24px;
+	    width: 24px;
+	}
+	#instagram {
+	    position: absolute;
+	    top: 495px;
+	    left: 127px;
+	    height: 24px;
+	    width: 24px;
+	}
+	#twitter {
+	    position: absolute;
+	    top: 495px;
+	    left: 153px;
+	    height: 24px;
+	    width: 24px;
+	}
+	#youtube {
+	    position: absolute;
+	    top: 495px;
+	    left: 178px;
+	    height: 24px;
+	    width: 24px;
+	}
+	#facebook {
+	    position: absolute;
+	    top: 495px;
+	    left: 206px;
+	    height: 24px;
+	    width: 24px;
+	}
+	.fbLike {
+	    position: absolute;
+	    top: 495px;
+	    left: 233px;
+	}
+
+/*/////////////////////////
+---------------------------
+HOMEPAGE STYLES STOP HERE
+---------------------------
+/////////////////////////*/
+
+/*
+ ######     ###    ########    ##       ########      ######  ######## ##    ## ##       ########  ######  
+##    ##   ## ##      ##       ##       ##     ##    ##    ##    ##     ##  ##  ##       ##       ##    ## 
+##        ##   ##     ##       ##       ##     ##    ##          ##      ####   ##       ##       ##       
+##       ##     ##    ##       ##       ########      ######     ##       ##    ##       ######    ######  
+##       #########    ##       ##       ##                 ##    ##       ##    ##       ##             ## 
+##    ## ##     ##    ##       ##       ##           ##    ##    ##       ##    ##       ##       ##    ## 
+ ######  ##     ##    ##       ######## ##            ######     ##       ##    ######## ########  ######  
+*/
+
+/* ------------------------- MAIN STYLES ------------------------- */
+
+	#lpWrapper {
+		width: 985px;
+		position: relative;
+		/*margin-top: 5px;*/
+		margin: 5px auto;
+	}
+	#lpWrapper a {
+		overflow: hidden;
+	}
+	.categoryHeader {
+	    color: #000000;
+	    font-size:16px;
+	    margin: 5px 0px 5px 3px;
+	    border-top:1px solid #a7a9ac;
+	    border-bottom:1px solid #a7a9ac;
+	    padding: 7px 0px;
+  	}
+	#leftNav {
+		width: 150px;
+		height: 1155px;
+		background-color: #F1F1F1;
+		float: left;
+	}
+	.leftnavlinks li { 
+	    margin-top: 5px;
+	    margin-left: 3px;
+  	}
+  	.leftnavlinks li a:hover {
+	    color: #00b9e6;
+	    text-decoration: none;
+  	}
+  	.new, .new:visited {
+	    color: #00b9e6;
+  	}
+  	.sale, .sale:visited {
+	    color: #f05a28;
+  	}
+  	.leftSection{
+	    color: black;
+	    margin-left: 3px;
+  	}
+	#lpContent {
+		width: 830px;
+		position: relative;
+		float: right;
+		text-align: center;
+	}
+	#lpContent p {
+		font-family: Georgia, serif;
+		font-size: 14px;
+	}
+	.clearfix {
+		clear: both;
+	}
+
+/* ------------------------- GRAPHIC ASSET STYLES ------------------------- */
+
+	.bottomShopLink:before {
+		content:url('../../img/ctaRoundedWhite.png');
+		position: relative;
+		top: 2px;
+	}
+	.bottomShopLinkBlack:before {
+		content:url('../../img/ctaRoundedBlack.png');
+		position: relative;
+		top: 2px;
+	}
+	.bottomShopLinkSale:before {
+		content:url('../../img/ctaRoundedWhite.png');
+		position: relative;
+		top: 2px;
+	}
+	.promoCodeBox {
+	    color: #e6cda7;
+	    background: #1e273b;
+	    padding: 8px 8px 4px;
+/*
+	    -webkit-box-shadow:  1px 1px 2px  #d9d9da;
+	    box-shadow:  1px 1px 2px  #d9d9da;
+*/
+	}
+	.dottedLineBlack {
+		font-family: 'GravurBold', Sans-Serif;
+		font-size: 28px;
+		letter-spacing: 4px;
+		color: #000000;
+	}
+	.dottedLineWhite {
+		font-family: 'GravurBold', Sans-Serif;
+		font-size: 21px;
+		letter-spacing: 4px;
+		color: #ffffff;
+	}
+	.dottedLineSale {
+		font-family: 'GravurBold', Sans-Serif;
+		font-size: 28px;
+		letter-spacing: 4px;
+		color: #DB413F;
+	}
+	.sepBarWhite {
+		width: 80px;
+		height: 7px;
+		background: #ffffff;
+		margin: 20px auto 0px;
+	}
+	.sepBarRed {
+		width: 80px;
+		height: 7px;
+		background: #DB413F;
+		margin: 20px auto 0px;
+	}
+	.circleBGRbig {
+		width: 400px;
+		height: 400px;
+		margin: 0 auto;
+		background: #f05e2d;
+		-webkit-border-radius: 200px;
+		-moz-border-radius: 200px;
+	    border-radius: 200px;
+	    -webkit-box-shadow:  0px 0px 30px 0px rgba(0, 0, 0, 0.6);
+		-moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.6);
+	    box-shadow:  0px 0px 30px 0px rgba(0, 0, 0, 0.6);
+	}
+	.circleBGRsmall {
+		width: 250px;
+		height: 250px;
+		margin: 15px auto 0 auto;
+		background: #ffffff;
+		-webkit-border-radius: 175px;
+		-moz-border-radius: 175px;
+	    border-radius: 175px;
+	    -webkit-box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+		-moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	    box-shadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+	    padding: 50px;
+	}
+	/*#topTXT ul {
+	    width: 500px;
+	    position: absolute;
+	    right: -30px;
+	    bottom: -40px;
+	}*/
+	.hpLinksRow li {
+	    display: inline;
+	}
+	.hpLinksRow li a {
+	    font-family: Arial, sans-serif;
+	    font-weight: bold;
+	    text-decoration: none;
+	    background: #000000;
+	    color: #ffffff;
+	    padding: 8px 15px;
+	    margin: 0px 15px;
+	    font-size: 14px;
+	}
+	.linkBttnSale {
+		text-decoration: none;
+		font-weight: bold;
+		color: #ffffff;
+		background: #000000;
+		padding: 10px 30px;
+		-webkit-box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+		-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.4); 
+	    box-shadow:  0px 0px 5px 0px rgba(0, 0, 0, 0.4);
+	}
+	.linkBttn:hover {
+		color: #00B9E6;
+	}
+	#topLink {
+		width: 830px;
+		height: 420px;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+	}
+	.saleColor {
+		color: #DB413F;
+	}
+	#promoCode {
+		color: #ffffff;
+		background: #DB413F;
+		padding: 2px 3px;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+	}
+	.splitStitchSmall {
+		background: url(../../img/SSEU_stitchDot.png) repeat-x ;
+		width: 100%;
+		height: 2px;
+		margin: 5px 0 8px 0;
+	}
+
+/* ------------------------- BANNER STYLES ------------------------- */
+
+/* ------------------------- TOP BANNER START ------------------------- */
+
+	#topTXT {
+        position: relative;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #topTXT p {
+        font-family: 'P22Underground-Medium',Sans-Serif;
+        font-size: 18px;
+        /*line-height: 21px;*/
+        /*color: #ffffff;*/
+    }
+    #topTXT .titleTop {
+        font-family: 'P22Underground-Light',Sans-Serif;
+        font-size: 74px;
+        line-height: 65px;
+        margin-top: 70px;
+        color: #ffffff;
+        text-shadow: 1px 0px 3px #c73f3b;
+        filter: dropshadow(color=#c73f3b, offx=1, offy=1);
+    }
+    #topTXT .titleTXT {
+        font-family: 'P22Underground-Heavy',Sans-Serif;
+        font-size: 135px;
+        line-height: 120px;
+        color: #ffffff;
+        text-shadow: 1px 0px 3px #c73f3b;
+        filter: dropshadow(color=#c73f3b, offx=1, offy=1);
+    }
+    #topTXT .subTitle {
+        font-family: 'P22Underground-Heavy',Serif;
+        font-style: italic;
+        color:#ffffff;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    #topTXT .subTitle2 {
+        font-family: Georgia, Serif;
+        color:#080100;
+        font-size: 20px;
+        line-height: 20px;
+        font-style: italic;
+    }
+    #topTXT .linkBttn {
+        font-size: 14px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #ffffff;
+        background: #000000;
+        padding: 10px 20px;
+    }
+    #topTXT .tcTXT {
+        font-family: Georgia, Serif;
+        font-size: 10px;
+        color: #2f3c42;
+        margin-top: 10px;
+        font-style: italic;
+    }
+    #topTXT .promoCodeNBGR {
+        color: #1e273b;
+        font-size: 20px;
+    }
+
+/* ------------------------- MIDDLE LEFT BANNER TEXT ------------------------- */
+
+	#middleLeftTXT {
+		margin-top: 225px;
+		color: #ffffff;
+	}
+	#middleLeftTXT .middleLeftTitle {
+		font-family: 'P22Underground-Light', Sans-Serif;
+		font-size: 21px;
+		line-height: 26px;
+		font-weight: bolder;
+	}
+	#middleLeftTXT a {
+		font-family: sans-serif;
+		font-size: 14px;
+		font-weight: bold;
+		text-decoration: none;
+		/*color: #ffffff;*/
+	}
+	#middleLeftTXT .promoTXT {
+		font-family: 'P22Underground-Medium', Sans-Serif;
+		font-size: 16px;
+		text-shadow: -1px 1px 3px #487CB2;
+	}
+	#middleLeftTXT .tcTXT {
+		font-size: 11px;
+	}
+	#middleLeftTXT .bottomShopLink {
+		font-family: 'GravurBold', sans-serif;
+		/*font-weight: bold;*/
+		color: #ffffff;
+		margin-top: 6px;
+	}
+	#middleLeftTXT .bottomShopLinkBlack {
+		font-family: 'Gravur', sans-serif;
+		font-weight: bold;
+		color: #000000;
+		/*margin-top: 135px;*/
+	}
+	#middleLeftLink {
+		position: absolute;
+		top: 425px;
+		left: 0px;
+		height: 375px;
+		width: 273px;
+	}
+
+/* ------------------------- MIDDLE RIGHT BANNER TEXT ------------------------- */
+
+	#middleRightTXT {
+		margin: 45px 250px 0 30px;
+	}
+	#middleRightTXT .middleRightTitle {
+		color: #00b9e6;
+		font-family: 'P22Underground-Heavy', Sans-Serif;
+		font-size: 60px;
+		line-height: 60px;
+		margin-bottom: 10px;
+	}
+	#middleRightTXT p {
+		font-family: 'P22Underground-Medium', Sans-Serif;
+		color: #00b9e6;
+	}
+	#middleRightTXT .subTitle {
+		font-family: 'P22Underground-Medium', Sans-Serif;
+		color:#00b9e6;
+		font-size: 21px;
+		line-height: 24px;
+	}
+	#middleRightLink {
+		width: 551px;
+		height: 375px;
+		position: absolute;
+		right: 0px;
+		top: 425px;
+	}
+	#middleRightTXT .bottomShopLink {
+		font-family: 'GravurBold', sans-serif;
+		/*font-weight: bold;*/
+		color: #000000;
+		margin-top: 135px;
+	}
+	#middleRightTXT .bottomShopLinkBlack {
+		font-family: 'GravurBold', sans-serif;
+		font-weight: bold;
+		color: #000000;
+		margin-top: 135px;
+	}
+	#middleRightTXT .bottomShopLinkSale {
+		font-family: 'GravurBold', sans-serif;
+		/*font-weight: bold;*/
+		color: #ffffff;
+		margin-top: 6px;
+		background: #000000;
+		padding: 5px;
+	}
+	#middleRightTXT .tcTXT {
+		font-size: 9px;
+		color: #DB413F;
+		margin-top: 30px;
+	}
+	#middleRightTXT .promoTXT {
+		font-family: Georgia, serif;
+		font-size: 18px;
+		line-height: 21px;
+		margin-top: 7px;
+		font-style: italic;
+	}
+
+/* ------------------------- BOTTOM BANNERS TEXT ------------------------- */
+
+	#bottomLeftTXT {
+		margin-top: 180px;
+		padding: 20px;
+	}
+	#bottomLeftLink {
+		position: absolute;
+		width: 273px;
+		height: 350px;
+		top: 805px;
+		left: 0px;
+	}
+	#bottomMiddleTXT {
+		margin-top: 180px;
+		padding: 20px;
+	}
+	#bottomMiddleLink {
+		position: absolute;
+		width: 273px;
+		height: 350px;
+		top: 805px;
+		left: 278px;
+	}
+	#bottomRightTXT {
+		margin-top: 180px;
+		padding: 20px;
+	}
+	#bottomRightLink {
+		position: absolute;
+		width: 273px;
+		height: 350px;
+		top: 805px;
+		left: 556px;
+	}
+	#bottomLeftTXT .bottomTitle, #bottomMiddleTXT .bottomTitle, #bottomRightTXT .bottomTitle {
+		font-family: 'P22Underground-Light',Sans-Serif;
+		color: #ffffff;
+		font-size: 21px;
+		line-height: 26px;
+		font-weight: bolder;
+	}
+	#bottomLeftTXT p, #bottomMiddleTXT p, #bottomRightTXT p {
+		color: #ffffff;
+		font-size: 14px;
+	}
+	#bottomLeftTXT a, #bottomMiddleTXT a, #bottomRightTXT a {
+		font-family: 'GravurBold', sans-serif;
+		text-decoration: none;
+		color: #ffffff;
+		font-size: 14px;
+	}
+
+/*
+########     ###    ##    ## ##    ## ######## ########     #### ##     ##    ###     ######   ########  ######  
+##     ##   ## ##   ###   ## ###   ## ##       ##     ##     ##  ###   ###   ## ##   ##    ##  ##       ##    ## 
+##     ##  ##   ##  ####  ## ####  ## ##       ##     ##     ##  #### ####  ##   ##  ##        ##       ##       
+########  ##     ## ## ## ## ## ## ## ######   ########      ##  ## ### ## ##     ## ##   #### ######    ######  
+##     ## ######### ##  #### ##  #### ##       ##   ##       ##  ##     ## ######### ##    ##  ##             ## 
+##     ## ##     ## ##   ### ##   ### ##       ##    ##      ##  ##     ## ##     ## ##    ##  ##       ##    ## 
+########  ##     ## ##    ## ##    ## ######## ##     ##    #### ##     ## ##     ##  ######   ########  ######  
+*/
+
+/* ////////// HOME PAGE IMAGES ////////// */
+
+	.content1st {
+	    background: url(../../img/SSEUHPladies2203.jpg);
+	}
+	.content2 {
+	    background: url(../../img/SSEUHPmens2203.jpg);
+	}
+	#featured .content3 {
+	    background: url(../../img/HPspend0604.jpg);
+	}
+	#featured .content4 {
+	    background: url(../../img/BoutiqueHP0604.jpg);
+	}
+	#featured .content5 {
+	    background: url(../../img/promotowel_050713.jpg);
+	}
+	#featured .content66 {
+	    background: url(../../img/HP2905.jpg);
+	}
+	#featured .content69 {
+	    background: url(../../img/HP1405_womens.jpg);
+	}
+	#featured .content70 {
+	    background: url(../../img/HP3004.jpg);
+	}
+	#featured .content71 {
+	    background: url(../../img/HP1405_mens.jpg);
+	}
+	#featured .content1106 {
+	    background: url(../../img/SSEU_HP_1406.jpg);
+	}
+	#HPbottomLeftFull {
+	    width:326px;
+	    height:423px;
+	    left: 0px;
+	    top: 55px;
+	    position:absolute;
+	    background: url(../../img/SSEU_HP_BOTTOM2606_02.jpg) no-repeat;
+	}
+	#HPbottomMiddleFull {
+	    width:326px;
+	    height:423px;
+	    left: 329px;
+	    top: 55px;
+	    position:absolute;
+	    background: url(../../img/SSEU_HP_BOTTOM2606_04.jpg) no-repeat;
+	}
+	#HPbottomRightFull {
+	    width:326px;
+	    height:423px;
+	    left: 658px;
+	    top: 55px;
+	    position:absolute;
+	    background: url(../../img/SSEU_HP_BOTTOM1406_06.jpg) no-repeat;
+	}
+	#HPsocialFooter {
+	    background: url(../../img/SSEU_socialFooter.jpg) no-repeat;
+	    width: 985px;
+	    height: 57px;
+	    position: absolute;
+	    width: 985px;
+	    height: 57px;
+	    top: 476px;
+	}
+
+/* ////////// MENS PAGE IMAGES ////////// */
+
+	#MENStopBanner {
+		width: 830px;
+		height: 410px;
+		margin-bottom: 5px;
+		/*background: url(../../img/SSEU_BagsLP_1406_01.jpg) no-repeat;*/
+		background: #db4541;
+		padding-top: 10px;
+	}
+	#MENSmiddleLeftBanner {
+		width: 273px;
+		height: 375px;
+		float: left;
+		background: url(../../img/SSEU_MensLP_1106_03.jpg) no-repeat;
+	}
+	#MENSmiddleRightBanner {
+		width: 552px;
+		height: 375px;
+		float: right;
+		background: url(../../img/SSEU_MensLP_2606_05.jpg) no-repeat;
+	}
+	#MENSbottomLeftBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		background: url(../../img/SSEU_MensLP_1705_08.jpg) no-repeat;
+	}
+	#MENSbottomMiddleBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_MensLP_1705_09.jpg) no-repeat;
+	}
+	#MENSbottomRightBanner {
+		width: 274px;
+		height: 350px;
+		float: right;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_MensLP_1705_11.jpg) no-repeat;
+	}
+
+/* ////////// WOMENS PAGE IMAGES ////////// */
+	
+	#WOMENStopBanner {
+		width: 830px;
+		height: 410px;
+		margin-bottom: 5px;
+		/*background: url(../../img/SSEU_BagsLP_1406_01.jpg) no-repeat;*/
+		background: #db4541;
+		padding-top: 10px;
+	}
+	#WOMENSmiddleLeftBanner {
+		width: 273px;
+		height: 375px;
+		float: left;
+		background: url(../../img/SSEU_LadiesLP_1106_03.jpg) no-repeat;
+	}
+	#WOMENSmiddleRightBanner {
+		width: 552px;
+		height: 375px;
+		float: right;
+		background: url(../../img/SSEU_MensLP_2606_05.jpg) no-repeat;
+	}
+	#WOMENSbottomLeftBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		background: url(../../img/SSEU_LadiesLP_1705_08.jpg) no-repeat;
+	}
+	#WOMENSbottomMiddleBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_LadiesLP_1705_09.jpg) no-repeat;
+	}
+	#WOMENSbottomRightBanner {
+		width: 274px;
+		height: 350px;
+		float: right;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_LadiesLP_1705_11.jpg) no-repeat;
+	}
+
+/* ////////// KIDS PAGE IMAGES ////////// */
+
+	#KIDStopBanner {
+		width: 830px;
+		height: 410px;
+		margin-bottom: 5px;
+		/*background: url(../../img/SSEU_BagsLP_1406_01.jpg) no-repeat;*/
+		background: #db4541;
+		padding-top: 10px;
+	}
+	#KIDSmiddleLeftBanner {
+		width: 273px;
+		height: 375px;
+		float: left;
+		background: url(../../img/SSEU_KidsLP_1705_03.jpg) no-repeat;
+	}
+	#KIDSmiddleRightBanner {
+		width: 552px;
+		height: 375px;
+		float: right;
+		background: url(../../img/SSEU_MensLP_2606_05.jpg) no-repeat;
+	}
+	#KIDSbottomLeftBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		background: url(../../img/SSEU_KidsLP_1705_08.jpg) no-repeat;
+	}
+	#KIDSbottomMiddleBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_KidsLP_1705_09.jpg) no-repeat;
+	}
+	#KIDSbottomRightBanner {
+		width: 274px;
+		height: 350px;
+		float: right;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_KidsLP_1705_11.jpg) no-repeat;
+	}
+
+/* ////////// FOOTWEAR PAGE IMAGES ////////// */
+
+	#FOOTWEARtopBanner {
+		width: 830px;
+		height: 410px;
+		margin-bottom: 5px;
+		/*background: url(../../img/SSEU_BagsLP_1406_01.jpg) no-repeat;*/
+		background: #db4541;
+		padding-top: 10px;
+	}
+	#FOOTWEARmiddleLeftBanner {
+		width: 273px;
+		height: 375px;
+		float: left;
+		background: url(../../img/SSEU_FootwearLP_1705_03.jpg) no-repeat;
+	}
+	#FOOTWEARmiddleRightBanner {
+		width: 552px;
+		height: 375px;
+		float: right;
+		background: url(../../img/SSEU_MensLP_2606_05.jpg) no-repeat;
+	}
+	#FOOTWEARbottomLeftBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		background: url(../../img/SSEU_FootwearLP_1705_08.jpg) no-repeat;
+	}
+	#FOOTWEARbottomMiddleBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_FootwearLP_1705_10.jpg) no-repeat;
+	}
+	#FOOTWEARbottomRightBanner {
+		width: 274px;
+		height: 350px;
+		float: right;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_FootwearLP_1705_12.jpg) no-repeat;
+	}
+
+/* ////////// BAGS PAGE IMAGES ////////// */
+
+	#BAGStopBanner {
+		width: 830px;
+		height: 410px;
+		margin-bottom: 5px;
+		/*background: url(../../img/SSEU_BagsLP_1406_01.jpg) no-repeat;*/
+		background: #db4541;
+		padding-top: 10px;
+	}
+	#BAGSmiddleLeftBanner {
+		width: 273px;
+		height: 375px;
+		float: left;
+		background: url(../../img/SSEU_BagsLP_1106_03.jpg) no-repeat;
+	}
+	#BAGSmiddleRightBanner {
+		width: 552px;
+		height: 375px;
+		float: right;
+		background: url(../../img/SSEU_MensLP_2606_05.jpg) no-repeat;
+	}
+	#BAGSbottomLeftBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		background: url(../../img/SSEU_BagsLP_1705_08.jpg) no-repeat;
+	}
+	#BAGSbottomMiddleBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_BagsLP_1705_09.jpg) no-repeat;
+	}
+	#BAGSbottomRightBanner {
+		width: 274px;
+		height: 350px;
+		float: right;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_BagsLP_1705_11.jpg) no-repeat;
+	}
+
+/* ////////// ACCESSORIES PAGE IMAGES ////////// */
+	
+	#ACCESStopBanner {
+		width: 830px;
+		height: 410px;
+		margin-bottom: 5px;
+		/*background: url(../../img/SSEU_BagsLP_1406_01.jpg) no-repeat;*/
+		background: #db4541;
+		padding-top: 10px;
+	}
+	#ACCESSmiddleLeftBanner {
+		width: 273px;
+		height: 375px;
+		float: left;
+		background: url(../../img/SSEU_AccessoriesLP_1705_03.jpg) no-repeat;
+	}
+	#ACCESSmiddleRightBanner {
+		width: 552px;
+		height: 375px;
+		float: right;
+		background: url(../../img/SSEU_MensLP_2606_05.jpg) no-repeat;
+	}
+	#ACCESSbottomLeftBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		background: url(../../img/SSEU_AccessoriesLP_1705_08.jpg) no-repeat;
+	}
+	#ACCESSbottomMiddleBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_AccessoriesLP_1705_09.jpg) no-repeat;
+	}
+	#ACCESSbottomRightBanner {
+		width: 274px;
+		height: 350px;
+		float: right;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_AccessoriesLP_1705_11.jpg) no-repeat;
+	}
+
+/* ////////// SURF PAGE IMAGES ////////// */
+
+	#SURFtopBanner {
+		width: 830px;
+		height: 410px;
+		margin-bottom: 5px;
+		/*background: url(../../img/SSEU_BagsLP_1406_01.jpg) no-repeat;*/
+		background: #db4541;
+		padding-top: 10px;
+	}
+	#SURFmiddleLeftBanner {
+		width: 273px;
+		height: 375px;
+		float: left;
+		background: url(../../img/SSEU_SurfLP_1106_03.jpg) no-repeat;
+	}
+	#SURFmiddleRightBanner {
+		width: 552px;
+		height: 375px;
+		float: right;
+		background: url(../../img/SSEU_MensLP_2606_05.jpg) no-repeat;
+	}
+	#SURFbottomLeftBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		background: url(../../img/SSEU_SurfLP_1705_08.jpg) no-repeat;
+	}
+	#SURFbottomMiddleBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_SurfLP_1705_09.jpg) no-repeat;
+	}
+	#SURFbottomRightBanner {
+		width: 274px;
+		height: 350px;
+		float: right;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_SurfLP_1705_11.jpg) no-repeat;
+	}
+
+/* ////////// SKATE PAGE IMAGES ////////// */
+
+	#SKATEtopBanner {
+		width: 830px;
+		height: 410px;
+		margin-bottom: 5px;
+		/*background: url(../../img/SSEU_BagsLP_1406_01.jpg) no-repeat;*/
+		background: #db4541;
+		padding-top: 10px;
+	}
+	#SKATEmiddleLeftBanner {
+		width: 273px;
+		height: 375px;
+		float: left;
+		background: url(../../img/SSEU_SkateLP_1106_03.jpg) no-repeat;
+	}
+	#SKATEmiddleRightBanner {
+		width: 552px;
+		height: 375px;
+		float: right;
+		background: url(../../img/SSEU_MensLP_2606_05.jpg) no-repeat;
+	}
+	#SKATEbottomLeftBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		background: url(../../img/SSEU_SkateLP_1705_08.jpg) no-repeat;
+	}
+	#SKATEbottomMiddleBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_SkateLP_1705_09.jpg) no-repeat;
+	}
+	#SKATEbottomRightBanner {
+		width: 274px;
+		height: 350px;
+		float: right;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_SkateLP_1705_11.jpg) no-repeat;
+	}
+
+/* ////////// SNOW PAGE IMAGES ////////// */
+
+	#SNOWtopBanner {
+		width: 830px;
+		height: 410px;
+		margin-bottom: 5px;
+		/*background: url(../../img/SSEU_AccessoriesLP_sitewide_01.jpg) no-repeat;*/
+		background: #db4541;
+		padding-top: 10px;
+	}
+	#SNOWmiddleLeftBanner {
+		width: 273px;
+		height: 375px;
+		float: left;
+		background: url(../../img/SSEU_SkateLP_1705_03.jpg) no-repeat;
+	}
+	#SNOWmiddleRightBanner {
+		width: 552px;
+		height: 375px;
+		float: right;
+		background: url(../../img/SSEU_MensLP_2606_05.jpg) no-repeat;
+	}
+	#SNOWbottomLeftBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		background: url(../../img/SSEU_SkateLP_1705_08.jpg) no-repeat;
+	}
+	#SNOWbottomMiddleBanner {
+		width: 273px;
+		height: 350px;
+		float: left;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_SkateLP_1705_09.jpg) no-repeat;
+	}
+	#SNOWbottomRightBanner {
+		width: 274px;
+		height: 350px;
+		float: right;
+		margin-top: 5px;
+		margin-left: 5px;
+		background: url(../../img/SSEU_SkateLP_1705_11.jpg) no-repeat;
+	}
+
+/* ------------------------- BANNER IMAGES END ------------------------- */
+
+/*
+ ######     ###    ##       ########    ########     ###     ######   ######## 
+##    ##   ## ##   ##       ##          ##     ##   ## ##   ##    ##  ##       
+##        ##   ##  ##       ##          ##     ##  ##   ##  ##        ##       
+ ######  ##     ## ##       ######      ########  ##     ## ##   #### ######   
+      ## ######### ##       ##          ##        ######### ##    ##  ##       
+##    ## ##     ## ##       ##          ##        ##     ## ##    ##  ##       
+ ######  ##     ## ######## ########    ##        ##     ##  ######   ######## 
+*/
+
+	#saleleftNav {
+		width: 150px;
+		height: 750px;
+		background-color: #F1F1F1;
+		float: left;
+		padding-top: 3px;
+	}
+	#salelpContent {
+		width: 830px;
+		height: 750px;
+		position: relative;
+		float: right;
+		text-align: center;
+	}
+	#saletopBanner {
+		width: 830px;
+		height: 458px;
+		margin-bottom: 5px;
+		/*background: url(../../img/SSEU_AccessoriesLP_sitewide_01.jpg) no-repeat;*/
+		background: #db4541;
+		float: right;
+	}		
+	#saletopTXT {
+        position: relative;
+        text-align: center;
+        /*margin: 0 auto;*/
+    }
+    #saletopTXT p {
+        font-family: 'P22Underground-Medium',Sans-Serif;
+        font-size: 18px;
+        /*line-height: 21px;*/
+        color: #39a1a3;
+    }
+    #saletopTXT .titleTop {
+        font-family: 'P22Underground-Light',Sans-Serif;
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    #saletopTXT .titleTXT {
+        font-family: 'P22Underground-Heavy',Sans-Serif;
+        font-size: 72px;
+        line-height: 75px;
+        /*margin-top: 10px;*/
+        text-shadow: 1px 0px 3px #9ab1b8;
+        filter: dropshadow(color=#9ab1b8, offx=1, offy=1);
+        /*text-shadow: -1px 1px 3px #487CB2;*/
+    }
+    #saletopTXT .subTitle {
+        font-family: 'P22Underground-Heavy',Serif;
+        color:#DB413F;
+        font-size: 29px;
+        line-height: 37px;
+    }
+    #saletopTXT .subTitle2 {
+        font-family: Georgia, Serif;
+        color:#080100;
+        font-size: 20px;
+        line-height: 20px;
+        font-style: italic;
+    }
+    #saletopTXT .linkBttn {
+        font-size: 14px;
+        text-decoration: none;
+        font-weight: bold;
+        color: #ffffff;
+        background: #000000;
+        padding: 10px 20px;
+    }
+    #saletopTXT .tcTXT {
+        font-family: Georgia, Serif;
+        font-size: 10px;
+        color: #000000;
+        margin-top: 130px;
+        font-style: italic;
+    }
+    #saletopTXT .promoCodeNBGR {
+        color: #3a3c40;
+        font-size: 20px;
+    }
+    #salebottomLeftBanner {
+		width: 273px;
+		height: 287px;
+		float: left;
+		background: url(../../img/SSEU_SALE_2606_03.jpg) no-repeat;
+	}
+	#salebottomLeftTXT {
+		margin-top: 258px;
+	}
+	#salebottomLeftLink {
+		position: absolute;
+		width: 273px;
+		height: 287px;
+		top: 463px;
+		left: 0px;
+	}
+	#salebottomMiddleBanner {
+		width: 273px;
+		height: 287px;
+		float: left;
+		margin-left: 5px;
+		background: url(../../img/SSEU_SALE_2606_05.jpg) no-repeat;
+	}
+	#salebottomMiddleTXT {
+		margin-top: 258px;
+	}
+	#salebottomMiddleLink {
+		position: absolute;
+		width: 273px;
+		height: 287px;
+		top: 463px;
+		left: 278px;
+	}
+	#salebottomRightBanner {
+		width: 274px;
+		height: 287px;
+		float: right;
+		margin-left: 5px;
+		background: url(../../img/SSEU_SALE_2606_07.jpg) no-repeat;
+	}
+	#salebottomRightTXT {
+		margin-top: 258px;
+	}
+	#salebottomRightLink {
+		position: absolute;
+		width: 273px;
+		height: 287px;
+		top: 463px;
+		left: 556px;
+	}
+	#salebottomLeftTXT .bottomTitle, #salebottomMiddleTXT .bottomTitle, #salebottomRightTXT .bottomTitle {
+		font-family: 'Gravur',Sans-Serif;
+		color: #ffffff;
+		font-size: 16px;
+		line-height: 16px;
+		font-weight: bolder;
+	}
+	#salebottomLeftTXT p, #salebottomMiddleTXT p, #salebottomRightTXT p {
+		color: #ffffff;
+		font-size: 14px;
+	}
+	#salebottomLeftTXT a, #salebottomMiddleTXT a, #salebottomRightTXT a {
+		font-family: 'GravurBold', sans-serif;
+		text-decoration: none;
+		color: #ffffff;
+		font-size: 14px;
+	}
+/* ------------------------- SOCIAL FOOTER STYLES ------------------------- */
+
+	#socialFooter {
+		position: relative;
+		width: 985px;
+		height: 57px;
+		float: left;
+		overflow: hidden;
+	}
+	.googleSmall {
+	    position: absolute;
+	    top: 17px;
+	    left: 76px;
+	    width: 24px;
+	    height: 24px;
+	}
+	.pinterestSmall {
+	    position: absolute;
+	    top: 17px;
+	    left: 103px;
+	    width: 24px;
+	    height: 24px;
+	}
+	.instagramSmall {
+	    position: absolute;
+	    top: 17px;
+	    left: 128px;
+	    width: 24px;
+	    height: 24px;
+	}
+	.twitterSmall {
+	    position: absolute;
+	    top: 17px;
+	    left: 153px;
+	    width: 24px;
+	    height: 24px;
+	}
+	.youtubeSmall {
+	    position: absolute;
+	    top: 17px;
+	    left: 179px;
+	    width: 24px;
+	    height: 24px;
+	}
+	.facebookSmall {
+	    position: absolute;
+	    top: 17px;
+	    left: 205px;
+	    width: 24px;
+	    height: 24px;
+	}
+	.facebookLike {
+	    position: absolute;
+	    left: 242px;
+	    top: 19px;
+	}
+/*//////////////////////////////////////
+----------------------------------------
+CATEGORY LANDING PAGES STYLES STOP HERE
+----------------------------------------
+///////////////////////////////////////*/
+/*
+####    ##        #######  ##     ## ########     ######   #######  ########  ######## 
+ ##     ##       ##     ## ##     ## ##          ##    ## ##     ## ##     ## ##       
+ ##     ##       ##     ## ##     ## ##          ##       ##     ## ##     ## ##       
+ ##     ##       ##     ## ##     ## ######      ##       ##     ## ##     ## ######   
+ ##     ##       ##     ##  ##   ##  ##          ##       ##     ## ##     ## ##       
+ ##     ##       ##     ##   ## ##   ##          ##    ## ##     ## ##     ## ##       
+####    ########  #######     ###    ########     ######   #######  ########  ######## 
+
+######## ##     ## ####  ######     ####  ######     ######## ##     ## ########    ######## ##    ## ########  
+   ##    ##     ##  ##  ##    ##     ##  ##    ##       ##    ##     ## ##          ##       ###   ## ##     ## 
+   ##    ##     ##  ##  ##           ##  ##             ##    ##     ## ##          ##       ####  ## ##     ## 
+   ##    #########  ##   ######      ##   ######        ##    ######### ######      ######   ## ## ## ##     ## 
+   ##    ##     ##  ##        ##     ##        ##       ##    ##     ## ##          ##       ##  #### ##     ## 
+   ##    ##     ##  ##  ##    ##     ##  ##    ##       ##    ##     ## ##          ##       ##   ### ##     ## 
+   ##    ##     ## ####  ######     ####  ######        ##    ##     ## ########    ######## ##    ## ######## 
+*/
+/*
+.............,,,,,,:::::::::::::::::::::::~::::::::::::::::::::::~~~~~=~~~~~~~~~~~~:~~~:::~:::::::::::::::::::::,,:::::::::::::::~~~::::::::::::~::::::,........
+......,:~~~=====++++?????IIIIIIIIIIIIIIIIIII7IIIIIIIIIIIIIIIIIII7I7777777777777777777777III7IIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII?+~,.....
+....,:~=====+++++????IIIIII777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777I+~....
+...:~~======++++?????IIIII77777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777I?~...
+..,~~======+++++????IIIII77777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777?:..
+.,:~~======++++????IIIII777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777I~..
+.,~~======+++++???IIIII77777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777+,.
+.,~~======++++????IIII777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777777?,.
+.,~~=====+++++???IIIII77777777777777777777777777777777777777777777777777777777777+:,,,,....,.,.,,:?7777777777777777777777777777777777777777777777777777777777?,.
+.,~======++++????IIIII7777777777777777777777777777777777777777777777777777777=,.................,...,,~I77777777777777777777777777777777777777777777777777777?,.
+.,~======++++????IIII77777777777777777777777777777777777777777777777777777~,............................,,~I7777777777777777777777777777777777777777777777777?:.
+.,~=====+++++???IIII777777777777777777777777777777777777777777777777777+,...................................,:I7777777777777777777777777777777777777777777777?:.
+.,~====+++++????IIII7777777777777777777777777777777777777777777777777:.........................................,=77777777777777777777777777777777777777777777?:.
+.,~==+++++++????IIII77777777777777777777777777777777777777777777777:.............................................,,I77777777777777777777777777777777777777777?:.
+.,==+++++++????IIIII777777777777777777777777777777777777777777777=,.................................................,?777777777777777777777777777777777777777?:.
+.,=++++++?????IIIIII7777777777777777777777777777777777777777777I,.....................................................,+7777777777777777777777777777777777777?:.
+.,=++++++????IIIII77777777777777777777777777777777777777777777:,........................................................,=77777777777777777777777777777777777?:.
+.,=+++++?????IIIII777777777777777777777777777777777777777777+,............................................................,+777777777777777777777777777777777I:.
+.,=+++++?????IIIII77777777777777777777777777777777777777777=................................................................:I7777777777777777777777777777777?:.
+.:=++++++????IIIII7777777777777777777777777777777777777777,..................................................................,=777777777777777777777777777777?:.
+.:=+++++?????IIIII77777777777777777777777777777777777777?,....................................................................,,I7777777777777777777777777777?:.
+.:=+++++?????IIIII7777777777777777777777777777777777777=,.......................................................................,=777777777777777777777777777?:.
+.:=+++??????IIIII7777777777777777777777777777777777777:..........................................................................,:77777777777777777777777777+,.
+.:=++++?????IIIII777777777777777777777777777777777777:............................................................................,:7777777777777777777777777?:.
+.:=++++?????IIIII77777777777777777777777777777777777:..............................................................................,:777777777777777777777777?:.
+.:=+++++????IIIII7777777777777777777777777777777777,................................................................................,:77777777777777777777777?:.
+.:=+++++????IIIII777777777777777777777777777777777,.................................................................................,,=7777777777777777777777?:.
+.:=+++++?????IIII777777777777777777777777+,77777I,....................................................................................,I777777777777777777777?:.
+.:=+++++?????IIII77777777777777777777777+,,I7777,....................................................................................,,:777777777777777777777?:.
+.:=++++?????IIII77777777777777777777777==,,:77I.......................................................................................,,?77777777777777777777?:.
+.:=+++?????IIIII7777777777777777777777~~~,,,7I..........................................................................................~77777777777777777777+,.
+.:=++++????IIIII777777777777777777777=~~:,.,,..........................................................................................,,I7777777777777777777+,.
+.:+??????IIIII777777777777777777777?:=~~:,,.............................................................................................,+7777777777777777777+:.
+.:+????IIIIII777777777777777777777I:,+~:,,..............................................................................................,=7777777777777777777?:.
+.~?IIIIIIII7777777777777777777777I::~:==,...............................................................................................,~7777777777777777777?:.
+.~?IIIIII77777777777777777777777I~~~:~=,................................................................................................,:7777777777777777777+,.
+,~?II777777777777777777777777777==?~~~,.................................................................................................,:7777777777777777777+,.
+,~I7777777777777777777777777777~~+?~,,,.................................................................................................,:7777777777777777777+,.
+,~I777777777777777777777777777=~==+,.....................................................................................................=7777777777777777777+,.
+,~I77777777777777777777777777?:==:,,....................................................................................................,?7777777777777777777+,.
+,~?7I77777777777777777777777?:,,,.,....................................................................................................,,77777777777777777777=,.
+,~?IIII777777777777777777777:,,,.......................................,,,,::,:::::,,...................................................=77777777777777777777=,.
+,~?IIIIII777777777777777777+,,..,,.............................,~+I777777777IIIIIIIIII??+~,............................................,I77777777777777777777=,.
+,~?IIIIIII7777777777777777?:,,,.,..........................,=I777777777777777777777777777777I=,.......................................,=777777777777777777777+,.
+,~?IIIIIIII77777777777777I,,,,,.,.......................:=I7777777777777777777777777777777777777+,....................................,7777777777777777777777+,.
+,~?IIIIIIII7777777777777I:.,,,,,,....................,:?777777777777777777777777777777777777777777I~.................................,I7777777777777777777777+,.
+,~?IIIIIII77777777777777=,,,,,,....................,:=7777777777777777777777777777777777777777777777I:..............................,~77777777777777777777777+:.
+,~?IIIIII77777777777777?,.,:,,,...................,~?7777777777777777777777777777777777777777777777III=.............................,777777777777777777777777+,.
+,=?IIIII77777777777777?:,,,::,...................,+I7777777777777777777777777777777777777777777777777II?,..........................,I777777777777777777777777+,.
+,~?III7777777777777777~,,,,::...................:+I77777777777777777777777777777777777777777777777777III?:........................,I7777777777777777777777777+,.
+,=II77777777777777777I,,.,,:,..................,=?II7777777777777777777777777777777777777777777777777IIII?:......................,I77777777777777777777777777+,.
+,~II77777777777777777?,,,,::..................,,=I7I77777777777777777777777777777777777777777777777777777I+.....................,+777777777777777777777777777+:.
+,~I777777777777777777?,,.,,,.................,,~?I77777777777777777777777777777777777777777777777777777777I~....................?7777777777777777777777777777+,.
+,~II77777777777777777?,,,,:,................,:=?I777I777777777777777777777777777777777777777777777777777777?...................I77777777777777777777777777777+,.
+,=I777777777777777777+.,,,,,...............,~?I777777777777777II7I777777777777777777777777777777777777777777~.................7777777777777777777777777777777+,.
+,=I777777777777777777+,,,,,,..............,+I7777777II++?????+???+++==++=++??III77777777777777777777777III???:..............,77777777777777777777777777777777+,.
+,=I777777777777777777I,.,,,..............:+I77777III??+=++?++=+++==~:::,,:,:::~~+III7777777777IIII?+=~::::~~~=,............,777777777777777777777777777777777+,.
+,=I7777777777777777777:,,,,............,=I777777III+++++??????I????=~:,,,,,,,,,::~+?II7777777II?+=~,,,,,,.,:~~:...........+7777777777777777777777777777777777+,.
+,=I7777777777777777777~,,,,...........,=I777777II??++++?IIIIII?IIIII+==~~:::,,,,::~=+?777777I?+==~:::::,:=====:,.........777777777777777777777777777777777777+,.
+,+I7777777777777777777=,,,,..........,+I77777777I?++???+????+++++++==+===~~~:~:::~~==?777777I?+====~===++???II+:.......,7777777777777777777777777777777777777+,.
+,=I7777777777777777777?:,,..........:=I7777777II7I???+?+=~:,.....,,,,,,,:~~:::::~==+=?777777??+==~~~~==+???IIII+,....,I77777777777777777777777777777777777777+,.
+,=I7777777777777777777IIIII~......,:=?777777777IIIII?+=,...............,,,:::::,:~+I77777777I+~~:~~~~=====+?III?,...:7777777777777777777777777777777777777777+,.
+,=I77777777777777777I?????I?~.....,~+I77777777777III?~......,,....,:,==,.:,,,,.,,~?777777777?:::,,,:~~=+++==?II?,.,777777777777777777777777777777777777777777+,.
+,=I7777777777777777?=~::::~~,....,:=?I777777IIIII???~::~??+?===,...,,+=:,.,:,,.,,=II77777777+:,,,,,,,,,,~+?+=?I+,77777777777777777777777777777777777777777777+,.
+,=I7777777777777777=~::::~~:,.,,,:~=?77777777777I7II?II7I?+??+==+=++=+=~::,.::,:+IIII7777777I~:,,~~:..,.,:,~=?II777777777777777777777777777777777777777777777+,.
+,=I777777777777777?~~:::~~~:,.,,:~~+III777777777777777I?III?++===~=~=====++??IIIIIIIIII77777I~,:~=:..,,,:+:,~+77777777777777777777777777777777777777777777777+,.
+,=I777777777777777?~:::~~~~:,..,:~~+IIII7777777777777III~=~==~~~~~~~~~~~~:~=?IIIIIIIIII777777+:,:~~,...,~I=~=?77777777777777777777777777777777777777777777777+,.
+,=?II7777777777777I=:::++=:::,,,~~~+IIII7777777777777777777I+=~,:,::::~~?I77III7IIIIIIII77777I=~~=???+~~+++++I77777777777777777777777777777777777777777777777+,.
+,=?II77777777777777+==+??+~~:,,:~~~+IIII77777I7777777777777777777II777777777II77777IIII7777777=::~=+++++++?I?I77777777777777777777777777777777777777777777777+,.
+,~?III7777777777777I?????=~:::~~~~~+IIIIIII77777777777777777777777777777777777777777III7777777I+=~~~~==+??IIII77777777777777777777777777777777777777777777777+,.
+,~?IIII777777777777I??I?+=~~:?+::::=IIIIIIIII77I7777777777777777777777777777777777777I777777777II?+==~~~==?III77777777777777777777777777777777777777777777777+,.
+,=?IIII7777777777777?II?++++?I+~~::=IIIIIIIII7777777777777777777777777777777777I7I7777777777777I7777II?????III77777777777777777777777777777777777777777777777=,.
+,=?IIII7777777777777IIII??I7II+~:,~+III?IIIIIIII7777777777777777777777777I??II7III77777777777777777777777777II77777777777777777777777777777777777777777777777+,.
+,=?IIII7777777777777IIIIIII7I?+~,,~+?I????III7I77II7777777777777777777I?+?I77777III77777777777777777777777777I77777777777777777777777777777777777777777777777+,.
+,~?IIII7777777777777II?I7III7I+~,:~+???+??IIII7IIIII7I7777777777777II?+==?II77777II77777777777777I77777777777777777777777777777777777777777777777777777777777+,.
+,~?IIIII777777777777II?III77I?+:,::+?????IIIIIIIII77I7III7777777III?+=~~=?II777777777777777777777II77I7777777777777777777777777777777777777777777777777777777+,.
+,~?IIIII7777777777777IIII?????=:,::=?+?I??IIIIIIIIIIIIIII7IIIIIII?+=~~~=+?II777777I777777777777777II777777777777777777777777777777777777777777777777777777777+,.
+.~?IIIIIII77777777777II=.....,:,,::=?++???I?IIIII?IIIIII??I?I???==~~~~?I?++I777777IIIIII7777777777I?I777777777I7777777777777777777777777777777777777777777777+:.
+.~+?IIIIII7777777777II:......,,.,,~++??+???I?II??II?????????++===~~~=??I??=~~+??II?????IIIII777IIII++?I777777777777777777777777777777777777777777777777777777?:.
+.:+??IIIIII77777777I?~....=?,.,,,:~=++???????II?????+++?+++=====:::=?IIIII?~:,,..:==~~~=??IIIIII???++?III77I7777777777777777777777777777777777777777777777777?:.
+.:+??IIIII777777777I+:....77,.,..:====?????????+++=+++++===~~~:,,:=IIIIIIII?::::,,..,:~~=+??+??????++??III7III77777777777777777777777777777777777777777777777?:.
+.:+?IIIIIII777777777+:....77,....:~=++++???????+==~~=++=~~~~:,,,:=IIIII7II??~,,,,:::,,,:~~====+?++?I+???IIIIII77777777777777777777777777777777777777777777777?:.
+,~??IIIIIII7777777777+,......,,..:~=++=++++?++==~:,~=++=~:,.,,:=?IIIIIIIII???~....,,,:::~::~~==+++?I????IIIIII77777777777777777777777777777777777777777777777+:.
+,~?IIIIIII777777777777?~,.,::,..,~=~=++++++++==~~:,=??=~:..,:~++???IIII?77I??+=~.....,,,::::::~==++?I??????III77777777777777777777777777777777777777777777777+,.
+,~?IIIIII777777777777777I=::,,.,,~==+=++++==~=+=~:.=?=~:,.,,:~~==+=?III7II????++=,.......,,,:::~==++II????I?II77777777777777777777777777777777777777777777777+,.
+,~?IIII777777777777777777777?,..,~======~=====~~~:~+++=:,,:::::==++??II7IIIIII+?+=,.....,,,::::::~==??II?????I77777777777777777777777777777777777777777777777+:.
+.~III77777777777777777777777?,,.,,~========~~==~==+?+++=~~:,,:==+++++??????????I?I?~:..,,:::::~:~:~==?I??????I77777777777777777777777777777777777777777777777+:.
+,~IIII77777777777777777777777+,,.,~~==~~~=~~==~==++?+??++=~=+:.,,:::::::::::~~~=++?I?+~~~==~=+===~~~~++??????777777777777777777777777777777777777777777777777+,.
+.~?II777777777777777777777777=:,,.,~~~=~~~~~~~===+==++?+++++??II=..............,,,::~~~:::~~=~==++=~~=+???++?777777777777777777777777777777777777777777777777+,.
+.:?IIII7II777777777777777777I~,,,.,:~=~~~~~~~~===~==+==+++????IIII?=:::==+??+===~:,.,.,,,,,,:::~~~==~~++++=+?777777777777777777777777777777777777777777777777+,.
+.:?IIIII7I77777777777777?:,...,:,..,:~:::~:~:~~~~======++++++??I????????????III???+++~,.........,:~=~~==++++7777777777777777777777777777777777777777777777777+,.
+.:?IIIIII77777777777I:,......,:::,...,::~:~~:~~::~~=~=+==?~=+??II??+++????IIII??++???????+~:,,,...,:~~=++==I7777777777777777777777777777777777777777777777777+,.
+,~?IIIIIII7777777I~,........,::::,.....,:::~~::::~=~~~==+++==+??III??++++?????I????????+???=~~~~:~~~~~=++==77777777777777777777777777777777777777777777777777+,.
+,~?IIIIIII7777I~,..........,=~~~:,....,,,,,:::~,::~======~~==++++?III??++=+======~~==+++?+++=======~~~=++=?77777777777777777777777777777777777777777777777777+,.
+.~?IIIIIIIII?:............,~=~~~::,.....,,..,,:,:,::~~~~~~=~~==+++?III?++=:~:::~:::~:::::~~~====++~~==+===77777777777777777777777777777777777777777777777777I=,.
+,~?IIIIIIII~..............:==~~:::,..........,,,.,:~~:~~~~==~==+++++???++~~~:,,,,,:::,,,,,:~~~==++~~~=~~~I77777777777777777777777777777777777777777777777777I=,.
+.:?III???=,,,.............:++~::::,...............,,,,:::=~:~~+++==++?+++=~=:,.,,,:,,.,,.,:~~~====~~~~~~~777777777777777777777777777777777777777777777777777I=,.
+.,:,,,,,,................,=++=::::~:,.....,..........,,,,,,,:~=====++?+?+==+~:.,,,,,.,..,:======~~:~~~::?777777777777777777777777777777777777777777777777777I=,.
+..,,,,,,.................:+??=::,:::,...............,,,..,,.,:~++++++++++++++=:,:,...,,:~======~~:,::::,7777777777777777777777777777777777777777777777777777I+,.
+..,,,,,,.................~+??=::::,,,,..............,,,,.,,.:~=++=++++==+++=+==~,,,,::~======~~::,:::,,,:?77777777777777777777777777777777777777777777777777I+,.
+..,,,,,..................:+++~::,,,,,,.............,,,,,,,.,:===~==+==+==++====~:::::::~~~=~~~:,..,...........,:I7777777777777777777777777777777777777777777I+,.
+..,,,,,..................,++=~:,,,,,,................,,...,.,:~:~=~===+====~=~~=~~::::~~~~~:~:~,..................,=7777777777777777777777777777777777777777I=,.
+..,,,,,...................~++~,,,,,,..................,,,.....,~===+++=~==~~=+=~~=~:~~~~~::~~::,......................,~?77777777777777777777777777777777777I=,.
+..,,,,....................:==~,,,,,....................,,...,:::~=~====~====~=~=~~~:~=~::::~:::,..........................:?77777777777777777777777777777777I=,.
+..,,,,.....................~==,,,,.,.........................,,~~==~=~~~~=~~~~~~~~::~::,::::~~:..............................,=77777777777777777777777777777I=,.
+...........................:=~:,............................,,:~~==~~==~:::::::::,,:::,,,,,:,:,.................................:I77777777777777777777777777I=,.
+............................:~~:,,............................,,:~~:~~~:,:,,~~:::,,,,,,,.,,,::....................................:?777777777777777777777777I=,.
+............................,~~~:,.............................:,:~::::::,,,,,,,,,.,,,,,,.,,,,......................................,:I777777777777777777777I=,.
+.............................,~~~:,.,..,,......................,:~::,,::,,.,.,,,,,,,,,,..,,,:,........................................,?77777777777777777777I=,.
+..............................:~~~:,.,,:,.......................,,:,:,,,,,,,,,,.,.,,,.....,,,..........................................,?7777777777777777777I=,.
+...............................:~~::::::,,........................,,:,,...,,..,,,.,,...,,,,,............................................,I777777777777777777I=,.
+................................::~~:~::,,,.......................,,,.,,...........,.....,,..............................................,?77777777777777777I=,.
+.................................:::::,,,,.............................,.........,........................................................,+7777777777777777I=,.
+..................................,,,,,.,,...........................................,.....................................................,+777777777777777I=,.
+...................................,.,,,...................................,................................................................,+77777777777777I=,.
+.............................................................................................................................................,+7777777777777I=,.
+...........................................................,,....,.,,,,,,,,...................................................................,?77777777777II=,.
+.......................................................,...........,,,,,.,.....................................................................,+I77777777III=,.
+........................................,,.........................,............................................................................,?77777I7IIII=,.
+...........................................,,....................................................................................................,I7I77IIIII?=,.
+...........................................,,.....................................................................................................:IIIIIIIII?=,.
+...................................................................................................................................................~IIIIIIII?~,.
+....................................................................................................................................................=IIIIII??~,.
+....................................................................................................................................................,+?I????+~,.
+.....................................................................................................................................................,+?????+~,.
+......................................................................................................................................................:??++?+~,.
+.......................................................................................................................................................~??+++~,.
+.......................................................................................................................................................,=++++~,.
+........................................................................................................................................................,=+++~,.
+.........................................................................................................................................................~++=~,.
+..........................................................................................................................................................~==:..
+..........................................................................................................................................................,~:,..
+...........................................................................................................................................................,,...
+................................................................................................................................................................
+................................................................................................................................................................
+................................................................................................................................................................
+................................................................................................................................................................
+*/
